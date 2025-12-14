@@ -1,0 +1,33 @@
+info:
+  name: "Minecraft Plugin Manager"
+  identifier: "minecraftpluginmanager"
+  description: "Manage Minecraft plugins and install new ones in one click!"
+  flags: "hasInstallScript,hasRemovalScript,developerForceMigrate"
+  version: "1.2.1"
+  target: "beta-A428-2"
+  author: "Arnaud Lier"
+  icon: "icon.png"
+  website: "https://www.sourcexchange.net/products/minecraft-plugin-manager-for-blueprint"
+
+admin:
+  view: "admin.blade.php"
+  controller: "controller.php"
+  css: ""
+  wrapper: ""
+
+dashboard:
+  css: ""
+  wrapper: ""
+  components: "components"
+
+data:
+  directory: "data"
+  public: ""
+
+database:
+  migrations: "migrations"
+
+requests:
+  controllers: "controllers"
+  routers:
+    client: "routes.php"

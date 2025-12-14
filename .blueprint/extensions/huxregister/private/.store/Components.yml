@@ -1,0 +1,9 @@
+# Template configuration files generally contain the minimum amount of
+# options required for functionality. Learn more about options that are
+# not listed here on the documentation page linked below.
+#
+# https://blueprint.zip/docs/?page=documentation/componentsyml
+
+Authentication:
+  Container:
+    AfterContent: "sections/RegisterElement"

@@ -1,0 +1,39 @@
+/* ===============================
+   CoRamTix Premium UI Theme
+   =============================== */
+
+.coramtix-icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 18px;
+    background: linear-gradient(135deg, #6366f1, #22d3ee);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    box-shadow: 0 10px 25px rgba(99,102,241,0.45);
+}
+
+.coramtix-title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.coramtix-sub {
+    font-size: 0.8rem;
+    color: #94a3b8;
+    margin-top: 2px;
+    line-height: 1.2;
+}
+
+.coramtix-muted {
+    font-size: 0.8rem;
+    color: #94a3b8;
+}
+
+.coramtix-stat {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}

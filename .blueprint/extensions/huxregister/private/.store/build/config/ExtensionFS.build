@@ -1,0 +1,1 @@
+/* HuxregisterStart */ 'blueprint:huxregister' => [ 'driver' => 'local', 'root' => storage_path('extensions/huxregister'), 'url' => env('APP_URL') . '/fs/extensions/huxregister', 'visibility' => 'public', 'throw' => false, ], 'blueprint_private:huxregister' => [ 'driver' => 'local', 'root' => storage_path('.extensions/huxregister'), 'throw' => false, ], /* HuxregisterEnd */

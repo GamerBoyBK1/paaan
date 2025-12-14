@@ -1,0 +1,347 @@
+[1m[2m2025-11-14 07:36:42(B[m [34mINFO:(B[m Placing Blueprint command shortcut..
+[1m[2m2025-11-14 07:36:42(B[m [34mINFO:(B[m Searching and validating framework dependencies..
+[1m[2m2025-11-14 07:36:42(B[m [34mINFO:(B[m Placing Blueprint command shortcut..
+[1m[2m2025-11-14 07:36:42(B[m [34mINFO:(B[m Linking directories and filesystems..
+
+   INFO  The [public/storage] link has been connected to [storage/app/public].  
+
+[1m[2m2025-11-14 07:36:42(B[m [35mINPUT:(B[m Would you like to put your application into maintenance while Blueprint is installing? (Y/n)
+[1m[2m2025-11-14 07:39:13(B[m [34mINFO:(B[m Put application into maintenance mode.
+
+   INFO  Application is now in maintenance mode.  
+
+[1m[2m2025-11-14 07:39:14(B[m [34mINFO:(B[m Running database migrations..
+[1m[2m2025-11-14 07:39:14(B[m [34mINFO:(B[m Seeding Blueprint database records..
+
+   INFO  Seeding database.  
+
+[1m[2m2025-11-14 07:39:15(B[m [34mINFO:(B[m Flushing cache..
+
+   INFO  Blade templates cached successfully.  
+
+
+   INFO  Configuration cached successfully.  
+
+
+   INFO  Route cache cleared successfully.  
+
+
+   INFO  Application cache cleared successfully.  
+
+Flushed Blueprint stylesheet and scripts cache.[1m[2m2025-11-14 07:39:18(B[m [34mINFO:(B[m Restarting queue workers..
+
+   INFO  Broadcasting queue restart signal.  
+
+[1m[2m2025-11-14 07:39:18(B[m [34mINFO:(B[m Changing Pterodactyl file ownership to 'www-data:www-data'..
+chown: cannot dereference '/var/www/pterodactyl/public/storage': No such file or directory
+[1m[2m2025-11-14 07:39:19(B[m [34mINFO:(B[m Cleaning up..
+[1m[2m2025-11-14 07:39:19(B[m [34mINFO:(B[m Rebuilding panel assets..
+[1m[2m2025-11-14 07:40:05(B[m [34mINFO:(B[m Put application into production.
+
+   INFO  Application is now live.  
+
+[1m[2m2025-11-14 07:40:05(B[m [32mSUCCESS:(B[m Blueprint has completed its installation process.
+[1m[2m2025-11-14 07:42:07(B[m [34mINFO:(B[m Searching and validating framework dependencies..
+[1m[2m2025-11-14 07:42:07(B[m [34mINFO:(B[m [34;mInstalling minecraftpluginmanager.blueprint...[0m [37m(1/1)[0m
+[1m[2m2025-11-14 07:42:07(B[m [33mWARNING:(B[m Config value 'requests.controllers' is deprecated, use 'requests.app' instead.
+[1m[2m2025-11-14 07:42:07(B[m [34mINFO:(B[m Reading and assigning extension flags..
+[1m[2m2025-11-14 07:42:07(B[m [33mWARNING:(B[m Extension flag 'hasInstallScript' is deprecated.
+[1m[2m2025-11-14 07:42:07(B[m [33mWARNING:(B[m Extension flag 'hasRemovalScript' is deprecated.
+[1m[2m2025-11-14 07:42:07(B[m [33mWARNING:(B[m Extension flag 'developerForceMigrate' is deprecated.
+[1m[2m2025-11-14 07:42:07(B[m [34mINFO:(B[m Writing extension placeholders..
+[1m[2m2025-11-14 07:42:07(B[m [33mWARNING:(B[m Minecraftpluginmanager is built for version beta-A428-2, but your version is beta-2025-10.
+[1m[2m2025-11-14 07:42:07(B[m [34mINFO:(B[m Cloning database migration files..
+[1m[2m2025-11-14 07:42:07(B[m [34mINFO:(B[m Cloning and linking app directory..
+[1m[2m2025-11-14 07:42:07(B[m [34mINFO:(B[m Cloning and linking router files..
+rm: cannot remove '/var/www/pterodactyl/routes/blueprint/client/minecraftpluginmanager.php': No such file or directory
+[1m[2m2025-11-14 07:42:07(B[m [34mINFO:(B[m Cloning and linking components directory..
+[1m[2m2025-11-14 07:42:07(B[m [34mINFO:(B[m Linking navigation routes..
+NAME: Plugins
+PATH: /minecraft-plugins
+TYPE: server
+COMP: MinecraftPluginContainer
+IDEN: MinecraftpluginmanagerJhrxkhmoou
+PERM: 
+ADMI: 
+[1m[2m2025-11-14 07:42:07(B[m [34mINFO:(B[m Cloning and linking private directory..
+[1m[2m2025-11-14 07:42:07(B[m [34mINFO:(B[m Linking and writing assets directory..
+[1m[2m2025-11-14 07:42:07(B[m [34mINFO:(B[m Cloning admin view..
+[1m[2m2025-11-14 07:42:07(B[m [34mINFO:(B[m Cloning admin controller..
+[1m[2m2025-11-14 07:42:07(B[m [34mINFO:(B[m Creating and linking extension filesystem..
+ln: failed to create symbolic link '/var/www/pterodactyl/.blueprint/extensions/minecraftpluginmanager/private': File exists
+[1m[2m2025-11-14 07:42:07(B[m [34mINFO:(B[m Cleaning up build files..
+[1m[2m2025-11-14 07:42:07(B[m [33mWARNING:(B[m Extension uses a custom installation script, proceed with caution.
+[1m[2m2025-11-14 07:42:08(B[m [34mINFO:(B[m Adding 'minecraftpluginmanager' to active extensions list..
+[1m[2m2025-11-14 07:42:08(B[m [34mINFO:(B[m Unsetting variables..
+[1m[2m2025-11-14 07:42:08(B[m [34mINFO:(B[m Finalizing transaction..
+[1m[2m2025-11-14 07:42:08(B[m [34mINFO:(B[m Rebuilding panel assets..
+[1m[2m2025-11-14 07:42:41(B[m [34mINFO:(B[m Linking filesystems..
+
+   INFO  The [public/storage] link has been connected to [storage/app/public].  
+
+[1m[2m2025-11-14 07:42:42(B[m [34mINFO:(B[m Flushing view, config and route cache..
+
+   INFO  Blade templates cached successfully.  
+
+
+   INFO  Configuration cached successfully.  
+
+
+   INFO  Route cache cleared successfully.  
+
+
+   INFO  Application cache cleared successfully.  
+
+Flushed Blueprint stylesheet and scripts cache.
+   INFO  Broadcasting queue restart signal.  
+
+[1m[2m2025-11-14 07:42:45(B[m [34mINFO:(B[m Changing Pterodactyl file ownership to 'www-data:www-data'..
+chown: cannot dereference '/var/www/pterodactyl/public/storage': No such file or directory
+[1m[2m2025-11-14 07:42:45(B[m [34mINFO:(B[m Running database migrations..
+[1m[2m2025-11-14 07:42:46(B[m [32mSUCCESS:(B[m minecraftpluginmanager has been installed.
+[1m[2m2025-11-14 07:42:52(B[m [34mINFO:(B[m Searching and validating framework dependencies..
+[1m[2m2025-11-14 07:42:52(B[m [34mINFO:(B[m [34;mInstalling nebula...[0m [37m(1/1)[0m
+[1m[2m2025-11-14 07:42:53(B[m [34mINFO:(B[m Reading and assigning extension flags..
+[1m[2m2025-11-14 07:42:53(B[m [33mWARNING:(B[m Extension flag 'hasInstallScript' is deprecated.
+[1m[2m2025-11-14 07:42:53(B[m [33mWARNING:(B[m Extension flag 'hasExportScript' is deprecated.
+[1m[2m2025-11-14 07:42:53(B[m [34mINFO:(B[m Writing extension placeholders..
+[1m[2m2025-11-14 07:42:54(B[m [33mWARNING:(B[m Nebula is built for version beta-2024-08, but your version is beta-2025-10.
+[1m[2m2025-11-14 07:42:54(B[m [34mINFO:(B[m Cloning and linking views directory..
+[1m[2m2025-11-14 07:42:54(B[m [34mINFO:(B[m Cloning and linking public directory..
+[1m[2m2025-11-14 07:42:54(B[m [34mINFO:(B[m Cloning and linking private directory..
+[1m[2m2025-11-14 07:42:54(B[m [34mINFO:(B[m Linking and writing assets directory..
+[1m[2m2025-11-14 07:42:54(B[m [34mINFO:(B[m Cloning admin view..
+[1m[2m2025-11-14 07:42:55(B[m [34mINFO:(B[m Cloning admin controller..
+[1m[2m2025-11-14 07:42:55(B[m [34mINFO:(B[m Cloning and linking dashboard wrapper..
+[1m[2m2025-11-14 07:42:55(B[m [34mINFO:(B[m Cloning and linking admin wrapper..
+[1m[2m2025-11-14 07:42:55(B[m [34mINFO:(B[m Creating and linking extension filesystem..
+ln: failed to create symbolic link '/var/www/pterodactyl/.blueprint/extensions/nebula/private': File exists
+[1m[2m2025-11-14 07:42:55(B[m [34mINFO:(B[m Cleaning up build files..
+[1m[2m2025-11-14 07:42:55(B[m [33mWARNING:(B[m Extension uses a custom installation script, proceed with caution.
+[1m[2m2025-11-14 07:42:58(B[m [34mINFO:(B[m Adding 'nebula' to active extensions list..
+[1m[2m2025-11-14 07:42:59(B[m [34mINFO:(B[m Unsetting variables..
+[1m[2m2025-11-14 07:42:59(B[m [34mINFO:(B[m Finalizing transaction..
+[1m[2m2025-11-14 07:42:59(B[m [34mINFO:(B[m Linking filesystems..
+
+   INFO  The [public/storage] link has been connected to [storage/app/public].  
+
+[1m[2m2025-11-14 07:42:59(B[m [34mINFO:(B[m Flushing view, config and route cache..
+
+   INFO  Blade templates cached successfully.  
+
+
+   INFO  Configuration cached successfully.  
+
+
+   INFO  Route cache cleared successfully.  
+
+
+   INFO  Application cache cleared successfully.  
+
+Flushed Blueprint stylesheet and scripts cache.
+   INFO  Broadcasting queue restart signal.  
+
+[1m[2m2025-11-14 07:43:02(B[m [34mINFO:(B[m Changing Pterodactyl file ownership to 'www-data:www-data'..
+chown: cannot dereference '/var/www/pterodactyl/public/storage': No such file or directory
+[1m[2m2025-11-14 07:43:02(B[m [32mSUCCESS:(B[m nebula has been installed.
+[1m[2m2025-11-14 08:40:16(B[m [34mINFO:(B[m Searching and validating framework dependencies..
+[1m[2m2025-11-14 08:40:16(B[m [34mINFO:(B[m [34;mInstalling huxregister.blueprint...[0m [37m(1/1)[0m
+[1m[2m2025-11-14 08:40:16(B[m [34mINFO:(B[m Reading and assigning extension flags..
+[1m[2m2025-11-14 08:40:16(B[m [34mINFO:(B[m Writing extension placeholders..
+[1m[2m2025-11-14 08:40:16(B[m [33mWARNING:(B[m Huxregister is built for version beta-2024-08, but your version is beta-2025-10.
+[1m[2m2025-11-14 08:40:16(B[m [34mINFO:(B[m Cloning and linking router files..
+rm: cannot remove '/var/www/pterodactyl/routes/blueprint/web/huxregister.php': No such file or directory
+[1m[2m2025-11-14 08:40:16(B[m [34mINFO:(B[m Cloning and linking components directory..
+[1m[2m2025-11-14 08:40:16(B[m [34mINFO:(B[m Cloning and linking private directory..
+[1m[2m2025-11-14 08:40:16(B[m [34mINFO:(B[m Linking and writing assets directory..
+[1m[2m2025-11-14 08:40:16(B[m [34mINFO:(B[m Cloning admin view..
+[1m[2m2025-11-14 08:40:16(B[m [34mINFO:(B[m Cloning admin controller..
+[1m[2m2025-11-14 08:40:16(B[m [34mINFO:(B[m Creating and linking extension filesystem..
+ln: failed to create symbolic link '/var/www/pterodactyl/.blueprint/extensions/huxregister/private': File exists
+[1m[2m2025-11-14 08:40:16(B[m [34mINFO:(B[m Cleaning up build files..
+[1m[2m2025-11-14 08:40:16(B[m [34mINFO:(B[m Adding 'huxregister' to active extensions list..
+[1m[2m2025-11-14 08:40:16(B[m [34mINFO:(B[m Unsetting variables..
+[1m[2m2025-11-14 08:40:16(B[m [34mINFO:(B[m Finalizing transaction..
+[1m[2m2025-11-14 08:40:16(B[m [34mINFO:(B[m Rebuilding panel assets..
+[1m[2m2025-11-14 08:40:46(B[m [34mINFO:(B[m Linking filesystems..
+
+   INFO  The [public/storage] link has been connected to [storage/app/public].  
+
+[1m[2m2025-11-14 08:40:46(B[m [34mINFO:(B[m Flushing view, config and route cache..
+
+   INFO  Blade templates cached successfully.  
+
+
+   INFO  Configuration cached successfully.  
+
+
+   INFO  Route cache cleared successfully.  
+
+
+   INFO  Application cache cleared successfully.  
+
+Flushed Blueprint stylesheet and scripts cache.
+   INFO  Broadcasting queue restart signal.  
+
+[1m[2m2025-11-14 08:40:49(B[m [34mINFO:(B[m Changing Pterodactyl file ownership to 'www-data:www-data'..
+chown: cannot dereference '/var/www/pterodactyl/public/storage': No such file or directory
+[1m[2m2025-11-14 08:40:49(B[m [32mSUCCESS:(B[m huxregister has been installed.
+[1m[2m2025-11-14 08:41:33(B[m [34mINFO:(B[m Searching and validating framework dependencies..
+[1m[2m2025-11-14 08:41:33(B[m [34mINFO:(B[m [34;mInstalling versionchanger...[0m [37m(1/1)[0m
+[1m[2m2025-11-14 08:41:33(B[m [33mWARNING:(B[m Config value 'requests.controllers' is deprecated, use 'requests.app' instead.
+[1m[2m2025-11-14 08:41:33(B[m [34mINFO:(B[m Reading and assigning extension flags..
+[1m[2m2025-11-14 08:41:33(B[m [33mWARNING:(B[m Extension flag 'hasInstallScript' is deprecated.
+[1m[2m2025-11-14 08:41:33(B[m [33mWARNING:(B[m Extension flag 'hasRemovalScript' is deprecated.
+[1m[2m2025-11-14 08:41:33(B[m [34mINFO:(B[m Writing extension placeholders..
+[1m[2m2025-11-14 08:41:33(B[m [33mWARNING:(B[m Versionchanger is built for version beta-2024-07, but your version is beta-2025-10.
+[1m[2m2025-11-14 08:41:33(B[m [34mINFO:(B[m Cloning and linking app directory..
+[1m[2m2025-11-14 08:41:33(B[m [34mINFO:(B[m Cloning and linking router files..
+rm: cannot remove '/var/www/pterodactyl/routes/blueprint/client/versionchanger.php': No such file or directory
+[1m[2m2025-11-14 08:41:33(B[m [34mINFO:(B[m Cloning and linking components directory..
+[1m[2m2025-11-14 08:41:33(B[m [34mINFO:(B[m Linking navigation routes..
+NAME: Versions
+PATH: /minecraft/versions
+TYPE: server
+COMP: VersionChangerContainer
+IDEN: VersionchangerWhojgqxstd
+PERM: 'file.update'
+ADMI: 
+[1m[2m2025-11-14 08:41:33(B[m [34mINFO:(B[m Cloning and linking public directory..
+[1m[2m2025-11-14 08:41:33(B[m [34mINFO:(B[m Cloning and linking private directory..
+[1m[2m2025-11-14 08:41:34(B[m [34mINFO:(B[m Linking and writing assets directory..
+[1m[2m2025-11-14 08:41:34(B[m [34mINFO:(B[m Cloning admin view..
+[1m[2m2025-11-14 08:41:34(B[m [34mINFO:(B[m Cloning admin controller..
+[1m[2m2025-11-14 08:41:34(B[m [34mINFO:(B[m Creating and linking extension filesystem..
+ln: failed to create symbolic link '/var/www/pterodactyl/.blueprint/extensions/versionchanger/private': File exists
+[1m[2m2025-11-14 08:41:34(B[m [34mINFO:(B[m Cleaning up build files..
+[1m[2m2025-11-14 08:41:34(B[m [33mWARNING:(B[m Extension uses a custom installation script, proceed with caution.
+[1m[2m2025-11-14 08:41:34(B[m [34mINFO:(B[m Adding 'versionchanger' to active extensions list..
+[1m[2m2025-11-14 08:41:34(B[m [34mINFO:(B[m Unsetting variables..
+[1m[2m2025-11-14 08:41:34(B[m [34mINFO:(B[m Finalizing transaction..
+[1m[2m2025-11-14 08:41:34(B[m [34mINFO:(B[m Rebuilding panel assets..
+[1m[2m2025-11-14 08:42:04(B[m [34mINFO:(B[m Linking filesystems..
+
+   INFO  The [public/storage] link has been connected to [storage/app/public].  
+
+[1m[2m2025-11-14 08:42:05(B[m [34mINFO:(B[m Flushing view, config and route cache..
+
+   INFO  Blade templates cached successfully.  
+
+
+   INFO  Configuration cached successfully.  
+
+
+   INFO  Route cache cleared successfully.  
+
+
+   INFO  Application cache cleared successfully.  
+
+Flushed Blueprint stylesheet and scripts cache.
+   INFO  Broadcasting queue restart signal.  
+
+[1m[2m2025-11-14 08:42:07(B[m [34mINFO:(B[m Changing Pterodactyl file ownership to 'www-data:www-data'..
+chown: cannot dereference '/var/www/pterodactyl/public/storage': No such file or directory
+[1m[2m2025-11-14 08:42:08(B[m [32mSUCCESS:(B[m versionchanger has been installed.
+[1m[2m2025-11-14 08:42:42(B[m [34mINFO:(B[m Searching and validating framework dependencies..
+[1m[2m2025-11-14 08:42:42(B[m [34mINFO:(B[m [34;mInstalling minecraftplayermanager.blueprint...[0m [37m(1/1)[0m
+[1m[2m2025-11-14 08:42:42(B[m [33mWARNING:(B[m Config value 'requests.controllers' is deprecated, use 'requests.app' instead.
+[1m[2m2025-11-14 08:42:42(B[m [34mINFO:(B[m Reading and assigning extension flags..
+[1m[2m2025-11-14 08:42:42(B[m [34mINFO:(B[m Writing extension placeholders..
+[1m[2m2025-11-14 08:42:42(B[m [33mWARNING:(B[m Minecraftplayermanager is built for version beta-2024-08, but your version is beta-2025-10.
+[1m[2m2025-11-14 08:42:42(B[m [34mINFO:(B[m Cloning and linking app directory..
+[1m[2m2025-11-14 08:42:42(B[m [34mINFO:(B[m Cloning and linking router files..
+rm: cannot remove '/var/www/pterodactyl/routes/blueprint/client/minecraftplayermanager.php': No such file or directory
+[1m[2m2025-11-14 08:42:42(B[m [34mINFO:(B[m Cloning and linking components directory..
+[1m[2m2025-11-14 08:42:42(B[m [34mINFO:(B[m Linking navigation routes..
+NAME: Players
+PATH: /minecraft/players
+TYPE: server
+COMP: PlayerManagerContainer
+IDEN: MinecraftplayermanagerZeprnfcyct
+PERM: 'control.console'
+ADMI: 
+[1m[2m2025-11-14 08:42:42(B[m [34mINFO:(B[m Cloning and linking public directory..
+[1m[2m2025-11-14 08:42:42(B[m [34mINFO:(B[m Cloning and linking private directory..
+[1m[2m2025-11-14 08:42:42(B[m [34mINFO:(B[m Linking and writing assets directory..
+[1m[2m2025-11-14 08:42:42(B[m [34mINFO:(B[m Cloning admin view..
+[1m[2m2025-11-14 08:42:42(B[m [34mINFO:(B[m Cloning admin controller..
+[1m[2m2025-11-14 08:42:42(B[m [34mINFO:(B[m Creating and linking extension filesystem..
+ln: failed to create symbolic link '/var/www/pterodactyl/.blueprint/extensions/minecraftplayermanager/private': File exists
+[1m[2m2025-11-14 08:42:42(B[m [34mINFO:(B[m Cleaning up build files..
+[1m[2m2025-11-14 08:42:43(B[m [34mINFO:(B[m Adding 'minecraftplayermanager' to active extensions list..
+[1m[2m2025-11-14 08:42:43(B[m [34mINFO:(B[m Unsetting variables..
+[1m[2m2025-11-14 08:42:43(B[m [34mINFO:(B[m Finalizing transaction..
+[1m[2m2025-11-14 08:42:43(B[m [34mINFO:(B[m Rebuilding panel assets..
+[1m[2m2025-11-14 08:43:13(B[m [34mINFO:(B[m Linking filesystems..
+
+   INFO  The [public/storage] link has been connected to [storage/app/public].  
+
+[1m[2m2025-11-14 08:43:13(B[m [34mINFO:(B[m Flushing view, config and route cache..
+
+   INFO  Blade templates cached successfully.  
+
+
+   INFO  Configuration cached successfully.  
+
+
+   INFO  Route cache cleared successfully.  
+
+
+   INFO  Application cache cleared successfully.  
+
+Flushed Blueprint stylesheet and scripts cache.
+   INFO  Broadcasting queue restart signal.  
+
+[1m[2m2025-11-14 08:43:16(B[m [34mINFO:(B[m Changing Pterodactyl file ownership to 'www-data:www-data'..
+chown: cannot dereference '/var/www/pterodactyl/public/storage': No such file or directory
+[1m[2m2025-11-14 08:43:16(B[m [32mSUCCESS:(B[m minecraftplayermanager has been installed.
+[1m[2m2025-11-14 09:47:53(B[m [34mINFO:(B[m Searching and validating framework dependencies..
+[1m[2m2025-11-14 09:47:53(B[m [34mINFO:(B[m [34;mInstalling sagaautosuspension.blueprint...[0m [37m(1/1)[0m
+[1m[2m2025-11-14 09:47:53(B[m [34mINFO:(B[m Reading and assigning extension flags..
+[1m[2m2025-11-14 09:47:53(B[m [33mWARNING:(B[m Extension flag 'hasInstallScript' is deprecated.
+[1m[2m2025-11-14 09:47:53(B[m [33mWARNING:(B[m Extension flag 'hasRemovalScript' is deprecated.
+[1m[2m2025-11-14 09:47:53(B[m [34mINFO:(B[m Writing extension placeholders..
+[1m[2m2025-11-14 09:47:53(B[m [33mWARNING:(B[m Sagaautosuspension is built for version beta-2024-12, but your version is beta-2025-10.
+[1m[2m2025-11-14 09:47:53(B[m [34mINFO:(B[m Cloning database migration files..
+[1m[2m2025-11-14 09:47:53(B[m [34mINFO:(B[m Cloning and linking components directory..
+[1m[2m2025-11-14 09:47:53(B[m [34mINFO:(B[m Cloning and linking private directory..
+[1m[2m2025-11-14 09:47:53(B[m [34mINFO:(B[m Linking and writing assets directory..
+[1m[2m2025-11-14 09:47:53(B[m [34mINFO:(B[m Cloning admin view..
+[1m[2m2025-11-14 09:47:53(B[m [34mINFO:(B[m Cloning admin controller..
+[1m[2m2025-11-14 09:47:53(B[m [34mINFO:(B[m Creating and linking extension filesystem..
+ln: failed to create symbolic link '/var/www/pterodactyl/.blueprint/extensions/sagaautosuspension/private': File exists
+[1m[2m2025-11-14 09:47:53(B[m [34mINFO:(B[m Cleaning up build files..
+[1m[2m2025-11-14 09:47:53(B[m [33mWARNING:(B[m Extension uses a custom installation script, proceed with caution.
+[1m[2m2025-11-14 09:47:53(B[m [34mINFO:(B[m Adding 'sagaautosuspension' to active extensions list..
+[1m[2m2025-11-14 09:47:53(B[m [34mINFO:(B[m Unsetting variables..
+[1m[2m2025-11-14 09:47:53(B[m [34mINFO:(B[m Finalizing transaction..
+[1m[2m2025-11-14 09:47:53(B[m [34mINFO:(B[m Rebuilding panel assets..
+[1m[2m2025-11-14 09:48:26(B[m [34mINFO:(B[m Linking filesystems..
+
+   INFO  The [public/storage] link has been connected to [storage/app/public].  
+
+[1m[2m2025-11-14 09:48:26(B[m [34mINFO:(B[m Flushing view, config and route cache..
+
+   INFO  Blade templates cached successfully.  
+
+
+   INFO  Configuration cached successfully.  
+
+
+   INFO  Route cache cleared successfully.  
+
+
+   INFO  Application cache cleared successfully.  
+
+Flushed Blueprint stylesheet and scripts cache.
+   INFO  Broadcasting queue restart signal.  
+
+[1m[2m2025-11-14 09:48:29(B[m [34mINFO:(B[m Changing Pterodactyl file ownership to 'www-data:www-data'..
+chown: cannot dereference '/var/www/pterodactyl/public/storage': No such file or directory
+[1m[2m2025-11-14 09:48:29(B[m [34mINFO:(B[m Running database migrations..
+[1m[2m2025-11-14 09:48:30(B[m [32mSUCCESS:(B[m sagaautosuspension has been installed.
+[1m[2m2025-12-11 20:36:10(B[m [35mINPUT:(B[m Do you want to proceed with this transaction? Some files might not be removed properly. (y/N)
+[1m[2m2025-12-11 20:36:13(B[m [34mINFO:(B[m [34;mRemoving nebula...[0m [37m(1/1)[0m
+[1m[2m2025-12-11 20:36:13(B[m [34mINFO:(B[m Searching and validating framework dependencies..
+[1m[2m2025-12-11 20:36:13(B[m [31mFATAL:(B[m Some framework dependencies couldn't be found or have issues. This is usually NOT a bug, do not report it as such.
+[1m[2m2025-12-11 20:36:13(B[m [31mFATAL:(B[m Unsupported dependency "node" <17.x. (Requires >17.x)

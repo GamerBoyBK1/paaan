@@ -1,0 +1,37 @@
+info:
+  name: "HuxPlay.eu - Register"
+  identifier: "huxregister"
+  description: "Simple module for user registration in pterodactyl"
+  flags: ""
+  version: "1.8"
+  target: "beta-2024-08"
+  author: "RecuvaPumDEV"
+  icon: "huxplayaddons.png"
+  website: "https://addons.huxplay.eu/"
+
+admin:
+  view: "admin/view.blade.php"
+  controller: "admin/controller.php"
+  css: ""
+  wrapper: ""
+
+dashboard:
+  css: ""
+  wrapper: ""
+  components: "components"
+
+data:
+  directory: ""
+  public: ""
+  console: ""
+
+requests:
+  views: ""
+  controllers: ""
+  routers:
+    application: ""
+    client: ""
+    web: "routes/web.php"
+
+database:
+  migrations: ""

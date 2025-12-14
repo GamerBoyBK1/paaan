@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html style="background-color: #050404">
+  <head>
+    <meta http-equiv="refresh" content="2; URL='editor.php'">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="/extensions/nebula/editor/assets/favicon.ico">
+    <title>CoRamTix Theam</title>
+  </head>
+  <body>
+    <div class="content">
+      <p style="color: white; text-align: center; font-size: 55px;">
+        <i class="bi bi-exclude"></i> <span style="font-weight: 600">Theam</span><br style="padding-bottom:3px"/>
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" 
+        fill="#7D53DE" 
+        stroke="#7D53DE" 
+        stroke-width="0.5"/>
+</svg>
+   </p>
+    </div>
+    <div class="back">
+      <a href="/admin/extensions" onclick="preventDefault(); window.location = document.referrer">
+        <button class="back-button"><i class="bi bi-arrow-left" style="margin-right: 10px;"></i> Back</button>
+      </a>
+    </div>
+  </body>
+</html>
+<style>
+  @import url("https://cdn.nebula.style/icons/bootstrap/bootstrap-icons.css");
+  @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+  body { font-family: 'Inter', sans-serif; }
+  
+  .content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 80%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .back {
+    position: fixed;
+    z-index: 2;
+    top: 40px;
+    left: 40px;
+  }
+  .back-button {
+    color: white;
+    font-size: 20px;
+    background-color: #222222;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 25px;
+  }
+  .back a {
+    cursor:pointer;
+  }
+</style>
